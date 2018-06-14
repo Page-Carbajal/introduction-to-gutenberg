@@ -1,105 +1,83 @@
-# Repo Structure and Lesson Plan Template
+## Notes 
 
-> Please remove all blockquote comments such as this before publishing.
+
+- We started working on this lesson based on Jeff Goelenske's Workshop-outlining. The presentation was targeted towards WordPress professionals. This is great, but in order to reach a broader audience I'll recommend taking a step back. Start with "This is WordPress. Here's how you make a website" mentality
+- At this point I'll also suggest to keep away from involving the code-side, therefore refraining from bringing in github to the program just yet
+- Finally running this on a controlled environment would be a great idea. Like WordPress.com. However we need to teach people how to use WordPress in general, therefore a working WordPress website with Gutenberg –later to be just WordPress– installed will be a Material requisite for this lesson
+- This workshop could easily be seen as part of a series like this
+  - Learn to install WordPress
+  - Build your first website with WordPress and Gutenberg
+  - Introduction to plugins and themes
+- Since we are trying to push gutenberg, taking a Frontend approach seems much more natural. I suggest running using only The Customizer and Gutenberg
+
 
 ## Description
 
-> A short paragraph explaining what is covered in the lesson plan. This should be text that can be copied and used in a meetup or workshop description.
+The purpose of this lesson is to teach people how the can build their own WordPress site using Gutenberg. 
 
 ## Objectives
 
-After completing this lesson, participants will be able to:
-
-* Objective 1
-* Objective 2
-
-> It’s required that you include a bulleted list of objective(s) for each lesson plan. Objectives should be worded as actions that the participant can do once they’ve finished. See [Bloom's Taxonomy of Action Verbs](http://www.fresnostate.edu/academics/oie/documents/assesments/Blooms%20Level.pdf) (PDF) as a reference. Avoid using words like "know," "understand," "be introduced to," etc.
+- The student will learn how to customize the content and appereance of a new WordPress site using The Customizer and Gutenberg
+- The student will learn how to edit, insert, and remove content –both media and text– using the Gutenberg editor
+- The students will learn how to build and customize a basic WordPress website using Gutenberg
 
 ## Target Audience
 
 Who is this lesson intended for? What interests/skills would they bring? Choose all that apply.
 
-* [ ] Users
+* [x] Users
 * [ ] Designers
 * [ ] Developers
 * [ ] Speakers
-* [ ] All
+* [x] All
 
 ## Experience Level
 
 How much experience would a participant need to get the most from this lesson?
 
-* [ ] Beginner
+* [x] Beginner
 * [ ] Intermediate
 * [ ] Advanced
-* [ ] Any
+* [x] Any
 
 ## Type of Instruction
 
 Which strategies will be used for this lesson plan? Choose all that apply.
 
-* [ ] Demonstration
+* [x] Demonstration
 * [ ] Discussion
 * [ ] Exercises
 * [ ] Feedback
-* [ ] Lecture (Presentation)
-* [ ] Show & Tell
-* [ ] Tutorial
+* [x] Lecture (Presentation)
+* [x] Show & Tell
+* [x] Tutorial
 
 ## Time Estimate (Duration)
 
-How long will it take to teach this lesson (in minutes)?
+40 to 60 minutes
 
-____ minutes
 
 ## Prerequisite Skills
 
-Participants will get the most from this lesson if they have familiarity with:
-
-* Skill 1
-* Skill 2
-
-> _For example:_
->
-> *   Experience with HTML and CSS
-> *   Completed the Basic WordPress Concepts lesson
+- Basic comprehension of what is WordPress
+- Basic knowledge of the WordPress backend
+- Completed the Basic WordPress Concepts lesson
 
 
 ## Readiness Questions
 
-* Question 1
-* Question 2
-
-> A list of questions for participants to see if they have the background and skills necessary to learn and understand the lesson.
->
-> _For example:_
->
-> *   Do you want to makes changes to your theme yourself?
-> *   Do you know how to write CSS?
+- How do you low into your WordPress website?
 
 ## Materials Needed
 
-* Item 1
-* Item 2
-
-> A list of files, resources, equipment, or other materials the instructor will need to teach the lesson.
->
-> _For example:_
->
-> *   A local install of WordPress
-> *   The files for the TwentySixteen theme
-> *   [Slides](https://rawgit.com/wptrainingteam/repo-name/dev/slides/index.html) (included in this repo)
+- A working WordPress based website with Gutenberg installed
+- Images for the header
+- Logo for the website –Optional–
 
 ## Notes for the Instructor
 
-* Note 1
-* Note 2
+- Consider a frontend approach for this lesson...
 
-> A list of any handy tips or other information for the instructor.
->
-> _For example:_
->
-> *   Participants may need to download the TwentySixteen theme before beginning
 
 ## Have You Thought About...?
 
@@ -118,28 +96,67 @@ Participants will get the most from this lesson if they have familiarity with:
 
 ## Lesson Overview
 
-* First do this
-* Then move on to this
-* Finish with this
-
-> The plan for the lesson. Outline form works well.
->
-> _For example:_
->
-> * Talk about what a theme is
-> * Demonstrate how to install and activate a theme
-> * Practice exercises to have participants find and install a theme on their own site
+1. Basic sections of your website
+  - Logo
+  - Header
+  - Content
+  - Sidebar
+  - Introduction to Posts and Pages
+2. Introduction to the Customizer
+  - Changing the header of your website
+  - Changing the logo of your website
+  - Chaging the Sidebar of your website
+  - A website without sidebars
+4. Customizing the Content of your posts with Gutenberg
+  -  Introduction to the Gutenberg Editor
+    - What is Gutenberg
+    - Why Gutenberg
+    - How things were done before gutenberg
+  -  Edit text content
+  -  Add new text content
+  -  Add new heading
+  -  Add a new image
+  -  Add a new gallery
+  -  What are blocks?
+  -  How to arrange blocks
+  -  How to delete blocks
+  -  How to duplicate blocks
+5. Introduction to the WordPress Admin
+  - The Posts tab
+  - The posts editor window
+  - The Pages tab
+  - The Pages editor window
+  - The Media tab
+  - The Appereance tab
+    - What are menus?
+    - How to create a menu
+    - How to add elements to the menu
+    - How to delete a menu
+  - The Comments tab
+  - The Themes tab
+  - The Plugins tab
+  - The Users tab
+  - The Settings tab
 
 ## Exercises
 
-**Exercise name**
+**Build a basic website**
 
-Short description of what the exercise does and what skills or knowledge it reinforces.
-
-*   Short point or step of the exercise
-*   And another one
-
-> These are short or specific activities that help participants practice certain components of the lesson. They should not be fully scripted exercises, but rather something that participants could do on their own. For example, you can create an exercise based on one step of the Example Lesson.
+- Create a new About Us post with the following blocks
+  - A heading block 
+  - A two paragraph text block
+  - A single image block
+  - A heading block
+  - A single paragraph text block
+  - A gallery block
+  - A quote block
+- Create a new Location post with the following blocks
+  - A heading block
+  - Add an embed post with a Google Map location
+  - A quote block
+- Create a new menu
+  - Add the newly created posts to the menu
+  - Make the new menu the main menu for your website 
 
 ## Assessment
 
