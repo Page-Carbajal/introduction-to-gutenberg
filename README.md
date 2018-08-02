@@ -1,24 +1,13 @@
-## Notes 
-
-
-- We started working on this lesson based on Jeff Goelenske's Workshop-outlining. The presentation was targeted towards WordPress professionals. This is great, but in order to reach a broader audience I'll recommend taking a step back. Start with "This is WordPress. Here's how you make a website" mentality
-- At this point I'll also suggest to keep away from involving the code-side, therefore refraining from bringing in github to the program just yet
-- Finally running this on a controlled environment would be a great idea. Like WordPress.com. However we need to teach people how to use WordPress in general, therefore a working WordPress website with Gutenberg –later to be just WordPress– installed will be a Material requisite for this lesson
-- This workshop could easily be seen as part of a series like this
-  - Learn to install WordPress
-  - Build your first website with WordPress and Gutenberg
-  - Introduction to plugins and themes
-- Since we are trying to push gutenberg, taking a Frontend approach seems much more natural. I suggest running using only The Customizer and Gutenberg
-
-
 ## Description
 
 This lesson will introduce the Gutenberg plugin and demonstrate how Gutenberg blocks can be used to build WordPress pages.
+
 
 ## Objectives
 
 - Practice customizing the content and appearance of a new WordPress site using The Customizer and Gutenberg blocks.
 - Use the Gutenberg editor to edit, insert, and remove content – both media and text.
+
 
 ## Target Audience
 
@@ -30,6 +19,7 @@ Who is this lesson intended for? What interests/skills would they bring? Choose 
 * [ ] Speakers
 * [x] All
 
+
 ## Experience Level
 
 How much experience would a participant need to get the most from this lesson?
@@ -38,6 +28,7 @@ How much experience would a participant need to get the most from this lesson?
 * [ ] Intermediate
 * [ ] Advanced
 * [x] Any
+
 
 ## Type of Instruction
 
@@ -50,6 +41,7 @@ Which strategies will be used for this lesson plan? Choose all that apply.
 * [x] Lecture (Presentation)
 * [x] Show & Tell
 * [x] Tutorial
+
 
 ## Time Estimate (Duration)
 
@@ -77,25 +69,11 @@ Which strategies will be used for this lesson plan? Choose all that apply.
 - Images for the header
 - Logo for the website –Optional–
 
+
 ## Notes for the Instructor
 
-- Consider a frontend approach for this lesson...
+- Consider a frontend approach for this lesson. People with limited technical skills should be able to complete the lesson without having to look once into the code. 
 
-
-## Have You Thought About...?
-
-* Challenge 1
-* Challenge 2
-
-> What could present challenges to delivering this lesson? Is there anything that can be done in advance to prepare for those challenges?
->
-> _For example:_
->
-> *  What if there’s no internet available?
-> *  What if there’s no projector available?
-> *  What if a participant doesn’t has a WordPress site to work with?
-> *  What if there aren’t enough computers for everyone?
-> *  What if no one has the prerequisite skills? What if there are different opinions about the topic?
 
 ## Lesson Overview
 
@@ -161,38 +139,29 @@ Which strategies will be used for this lesson plan? Choose all that apply.
   - Add the newly created posts to the menu
   - Make the new menu the main menu for your website 
 
-## Assessment
+## Assessment / Quiz
 
 **Write out the question.**
 
-1.  Option
-2.  Option
-3.  Option
-4.  Option
+1. How does Gutenberg manage the content in your website?
+	- Answer: Creating Blocks 
+2. How do you insert a new Heading into a document using Gutenberg?
+	- Answer: With a heading block
+3. How do you re-order blocks using Gutenberg
+   - Answer: Dragging them up or down
 
-**Answer:** 3\. Correct answer
-
-> A few questions to ask participants to evaluate their retention of the material presented. They should be a measure of whether the objectives were reached. Consider having a question for each objective.
 
 ## Additional Resources
 
-* Resource 1
-* Resource 2
+- Morten Rand-Hendricks's Gutenberg presentation at WordCamp US 2017
+	- [Slideshare](https://www.slideshare.net/mor10/gutenberg-and-the-wordpress-of-tomorrow-wordcamp-us-2017)
+	- [WordCamp TV](https://wordpress.tv/2017/12/10/morten-rand-hendriksen-gutenberg-and-the-wordpress-of-tomorrow/)
+- Matt Mullenweg's WordCamp Europe 2018 Keynote
+	- [WordPress TV](https://wordpress.tv/2018/07/04/matt-mullenweg-a-summertime-update-keynote-and-qa/) From minute 6 to 14:40
+- Matias Ventura's live demo at WordCamp US 2017
+	- [WordCamp TV](https://wordpress.tv/2017/12/04/matt-mullenweg-state-of-the-word-2017/) from minute 33 to 56
 
-> An optional section which can contain a list of resources that the instructor can use to get more information on the topic.
->
-> _For example:_
->
-> * Link to information on the Codex
-> * Theme Review Team's Handbook
 
-## Example Lesson
-
-> An example of how the lesson plan can be implemented. Written in script form as one possible way an instructor might use this lesson plan at an event, with screenshots and instructions if necessary.
-
-### Section Heading for Example Lesson
-
-> You will likely need to break the Example Lesson down into multiple sections.
 
 ### Lesson Wrap Up
 
