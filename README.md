@@ -13,13 +13,12 @@
 
 ## Description
 
-The purpose of this lesson is to teach people how the can build their own WordPress site using Gutenberg. 
+This lesson will introduce the Gutenberg plugin and demonstrate how Gutenberg blocks can be used to build WordPress pages.
 
 ## Objectives
 
-- The student will learn how to customize the content and appereance of a new WordPress site using The Customizer and Gutenberg
-- The student will learn how to edit, insert, and remove content –both media and text– using the Gutenberg editor
-- The students will learn how to build and customize a basic WordPress website using Gutenberg
+- Practice customizing the content and appearance of a new WordPress site using The Customizer and Gutenberg blocks.
+- Use the Gutenberg editor to edit, insert, and remove content – both media and text.
 
 ## Target Audience
 
@@ -66,7 +65,11 @@ Which strategies will be used for this lesson plan? Choose all that apply.
 
 ## Readiness Questions
 
-- How do you low into your WordPress website?
+- Do you want to rearrange the parts of your content such as text and images?
+- Do you want to rearrange the parts of your website such as content and sidebars?
+- Have you ever worked with a page builder in WordPress?
+- Have you ever used shortcodes on a WordPress site?
+
 
 ## Materials Needed
 
